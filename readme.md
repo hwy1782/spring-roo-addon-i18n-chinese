@@ -10,15 +10,10 @@
 --------------------------
 
 ##使用说明##
-
-    1.下载源代码
-    2.执行mvn install 命令
-
-在roo环境中：
-    3.执行osgi安装命令
-
-> osgi start --url file:///D:/mvn_repo/com/ccb/roo/addon/i18/com.ccb.roo.addon.i18/0.1.1.BUILD-SNAPSHOT/com.ccb.roo.addon.i18-0.1.1.BUILD-SNAPSHOT.jar
-
-    假定mvn本地仓库地址为D:/mvn_repo
-
-    4.执行web mvc language --code zh
+1. 下载源代码
+2. 执行mvn install 命令
+3. 在roo环境中，执行osgi安装命令
+    > osgi start --url file:///D:/mvn_repo/com/ccb/roo/addon/i18/com.ccb.roo.addon.i18/0.1.1.BUILD-SNAPSHOT/com.ccb.roo.addon.i18-0.1.1.BUILD-SNAPSHOT.jar
+    >
+    >  //假定mvn本地仓库地址为D:/mvn_repo
+4. 在roo环境中,执行web mvc language --code zh
